@@ -3,54 +3,135 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Hug Break – Support</title>
-    <meta name="description" content="Help and contact for Hug Break, the app that reminds you to hug your person." />
+    <title>Hug Break – Little reminders to hug the people you love</title>
+    <meta
+      name="description"
+      content="Hug Break is a cosy iPhone app that reminds you to hug your person, tracks your hug streak, and helps you send a sweet message when you can't be together."
+    />
+    <meta property="og:title" content="Hug Break" />
+    <meta property="og:description" content="Little reminders to hug the people you love." />
+    <meta property="og:image" content="https://hugbreak.com/screenshots/home.jpg" />
+    <meta property="og:url" content="https://hugbreak.com/" />
+    <link rel="icon" href="mascot.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main>
-      <header>
-        <img src="mascot.svg" alt="The Hug Break marmot" />
-        <h1>Hug Break</h1>
-        <p class="subtitle">Little reminders to hug the people you love.</p>
-      </header>
-
-      <section class="card">
-        <h2>Get in touch 💬</h2>
-        <p>
-          Questions, bugs or ideas? Email
-          <a href="mailto:nzmattgrant@gmail.com?subject=Hug%20Break%20support">nzmattgrant@gmail.com</a>,
-          or tap <strong>Send feedback</strong> at the bottom of the app's Settings.
-        </p>
+    <main class="wide">
+      <section class="hero">
+        <div class="hero-text">
+          <img class="hero-mascot" src="mascot.svg" alt="The Hug Break marmot" width="120" height="115" />
+          <h1>Hug Break</h1>
+          <p class="tagline">Little reminders to hug the people you love.</p>
+          <p class="subtitle">
+            A cosy iPhone app that nudges you to take a hug break, keeps track of your hug streak,
+            and helps you send a little love when you can't be together.
+          </p>
+          <p class="badge">Coming soon to the App Store</p>
+        </div>
+        <img
+          class="phone hero-phone"
+          src="screenshots/home.jpg"
+          alt="Hug Break's home screen: Time to hug Alex, with the marmot and a We hugged! button"
+          width="600"
+          height="1304"
+        />
       </section>
 
-      <section class="card">
-        <h2>Common questions</h2>
+      <section class="features">
+        <div class="card">
+          <h2>⏰ Gentle reminders</h2>
+          <p>Pick set times, every few hours, or a surprise random time each day.</p>
+        </div>
+        <div class="card">
+          <h2>💌 Can't hug? Send love</h2>
+          <p>
+            Sweet messages for every mood, sent straight to Messages, WhatsApp, Telegram, Viber,
+            LINE, KakaoTalk or WeChat.
+          </p>
+        </div>
+        <div class="card">
+          <h2>🔥 Hug streaks</h2>
+          <p>Tap "We hugged!" and watch your streak grow, day after day.</p>
+        </div>
+        <div class="card">
+          <h2>🔒 Totally private</h2>
+          <p>No accounts, no ads, no tracking. Everything stays on your phone.</p>
+        </div>
+        <div class="card">
+          <h2>🌙 Light or dark</h2>
+          <p>Match your phone, or pick the look you like.</p>
+        </div>
+        <div class="card">
+          <h2>🌐 8 languages</h2>
+          <p>English, Deutsch, Español, Français, Italiano, 日本語, 한국어 and 中文.</p>
+        </div>
+      </section>
 
-        <h3>My reminders don't arrive.</h3>
-        <p>
-          Check that notifications for Hug Break are on in your phone's Settings, and that the
-          reminder is switched on with at least one day picked.
-        </p>
+      <section>
+        <h2 class="section-title">A peek inside</h2>
+        <div class="gallery">
+          <figure>
+            <img class="phone" src="screenshots/home.jpg" alt="Home screen with the hug reminder" width="600" height="1304" loading="lazy" />
+            <figcaption>Time for a hug</figcaption>
+          </figure>
+          <figure>
+            <img class="phone" src="screenshots/streaks.jpg" alt="Streaks screen: 12 days in a row, best streak 19, 86 hugs" width="600" height="1304" loading="lazy" />
+            <figcaption>Your hug streak</figcaption>
+          </figure>
+          <figure>
+            <img class="phone" src="screenshots/messages.jpg" alt="Messages screen with sweet messages grouped by mood" width="600" height="1304" loading="lazy" />
+            <figcaption>Messages for every mood</figcaption>
+          </figure>
+          <figure>
+            <img class="phone" src="screenshots/settings.jpg" alt="Reminder settings with times and days" width="600" height="1304" loading="lazy" />
+            <figcaption>Reminders your way</figcaption>
+          </figure>
+          <figure>
+            <img class="phone" src="screenshots/home-dark.jpg" alt="Home screen in dark mode" width="600" height="1304" loading="lazy" />
+            <figcaption>Cosy in the dark too</figcaption>
+          </figure>
+        </div>
+      </section>
 
-        <h3>Why are my reminders only planned up to a certain date?</h3>
-        <p>
-          An iPhone holds at most 64 upcoming alerts per app. If your reminders need more than that,
-          Hug Break plans the soonest ones and adds more each time you open the app.
-        </p>
+      <section id="support" class="narrow">
+        <h2 class="section-title">Support</h2>
+        <div class="card">
+          <h2>Get in touch 💬</h2>
+          <p>
+            Questions, bugs or ideas? Email
+            <a href="mailto:nzmattgrant@gmail.com?subject=Hug%20Break%20support">nzmattgrant@gmail.com</a>,
+            or tap <strong>Send feedback</strong> at the bottom of the app's Settings.
+          </p>
+        </div>
 
-        <h3>My random-time reminders stopped.</h3>
-        <p>
-          Random times are planned a week ahead. Open the app at least once a week to keep them
-          coming.
-        </p>
+        <div class="card">
+          <h2>Common questions</h2>
+
+          <h3>My reminders don't arrive.</h3>
+          <p>
+            Check that notifications for Hug Break are on in your phone's Settings, and that the
+            reminder is switched on with at least one day picked.
+          </p>
+
+          <h3>Why are my reminders only planned up to a certain date?</h3>
+          <p>
+            An iPhone holds at most 64 upcoming alerts per app. If your reminders need more than
+            that, Hug Break plans the soonest ones and adds more each time you open the app.
+          </p>
+
+          <h3>My random-time reminders stopped.</h3>
+          <p>
+            Random times are planned a week ahead. Open the app at least once a week to keep them
+            coming.
+          </p>
+        </div>
       </section>
 
       <footer>
-        <p><a href="privacy.html">Privacy policy</a></p>
+        <p><a href="privacy.html">Privacy policy</a> · <a href="#support">Support</a></p>
         <p>© 2026 Matthew Grant</p>
       </footer>
     </main>
